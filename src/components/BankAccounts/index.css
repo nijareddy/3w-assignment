@@ -1,0 +1,99 @@
+.bank-accounts-container {
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-bank-button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-bank-button:hover {
+    background-color: darkorange;
+  }
+  
+  .bank-account-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .bank-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .account-info {
+    color: #555;
+  }
+  
+  .account-holder {
+    margin-top: 10px;
+  }
+  
+  .account-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-button, .remove-button {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .edit-button {
+    color: blue;
+  }
+  
+  .edit-button:hover {
+    color: darkblue;
+  }
+  
+  .remove-button {
+    color: red;
+  }
+  
+  .remove-button:hover {
+    color: darkred;
+  }
+  
+  .disclaimer-section {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  .disclaimer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .disclaimer-section p {
+    color: #666;
+    font-size: 14px;
+  }
+  
